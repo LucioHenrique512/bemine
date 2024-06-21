@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+body {
+ overflow: hidden;
+}
+
 
 @layer utilities {
   .text-balance {
