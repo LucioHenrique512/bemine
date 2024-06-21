@@ -42,7 +42,7 @@ export default function Home() {
 
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-center md:p-24 p-5 bg-gradient-to-b transition duration-1000 ${
+      className={`flex h-screen flex-col items-center justify-center md:p-24 p-5 bg-gradient-to-b transition duration-1000 ${
         yesPressed
           ? "bg-gradient-to-r from-pink-500 to-rose-500"
           : "from-violet-600 to-indigo-600"
