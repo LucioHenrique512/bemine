@@ -75,7 +75,7 @@ export default function Home() {
                     .typeString(
                       "<br/><br/>E é por isso que eu queria te perguntar algo..."
                     )
-                    .pauseFor(2000)
+                    .pauseFor(1000)
                     .callFunction(() => {
                       setShowNextButton(true);
                     })
@@ -111,7 +111,7 @@ export default function Home() {
                   .deleteAll()
                   .pauseFor(1000)
                   .deleteAll()
-                  .changeDelay(150)
+                  .changeDelay(100)
                   .typeString("Quer namorar comigo?")
                   .pauseFor(1000)
                   .callFunction(() => {
